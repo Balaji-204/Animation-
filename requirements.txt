@@ -1,0 +1,13 @@
+# OfflineAnimStudio Python Dependencies (Strictly Local)
+pyside6>=6.6.0
+pydantic>=2.5.0
+jsonschema>=4.20.0
+numpy>=1.24.0
+scipy>=1.11.0
+requests>=2.31.0
+soundfile>=0.12.0
+# Local TTS & Audio
+piper-tts>=1.2.0
+faster-whisper>=0.10.0
+# Headless rendering & image tools
+Pillow>=10.0.0

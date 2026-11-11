@@ -1,0 +1,4 @@
+# Recommended Offline Models for OfflineAnimStudio (Air-Gapped Checksums)
+# Format: SHA256  relative/path/to/file
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  models/piper_voices/en_US-lessac-medium.onnx
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  models/whisper/ggml-base.en.bin

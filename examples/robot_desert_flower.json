@@ -1,0 +1,99 @@
+{
+  "project_name": "The Desert Bloom",
+  "idea": "A small robot finds a vibrant flower in an abandoned desert.",
+  "style_preset": "low_poly_cartoon",
+  "fps": 24,
+  "resolution": "1920x1080",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Dune Reconnaissance",
+      "duration_sec": 4.5,
+      "location": "loc_desert_dunes",
+      "time_of_day": "golden_hour",
+      "lighting_mood": "warm_sunlight",
+      "camera": {
+        "shot_type": "medium",
+        "movement": "dolly",
+        "start_transform": {"position": [0.0, -4.5, 1.8], "rotation": [12.0, 0.0, 0.0]},
+        "end_transform": {"position": [0.0, -2.8, 1.2], "rotation": [8.0, 0.0, 0.0]},
+        "focal_length_mm": 35.0
+      },
+      "characters": [
+        {
+          "character_id": "robot_scout",
+          "asset_id": "char_robot_scout",
+          "scale": 1.0,
+          "start_position": [-1.5, 0.0, 0.0],
+          "end_position": [0.0, 0.5, 0.0],
+          "actions": [
+            {"action": "walk", "start_sec": 0.0, "end_sec": 3.0},
+            {"action": "look_at", "target": "flower_01", "start_sec": 3.0, "end_sec": 4.5}
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop_id": "flower_01",
+          "asset_id": "prop_alien_flower",
+          "position": [0.3, 1.2, 0.0],
+          "rotation": [0.0, 0.0, 15.0],
+          "scale": 1.0
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "robot_scout",
+          "emotion": "inquisitive",
+          "text": "Sensor reading confirmed. Organic signature located in sector four."
+        }
+      ],
+      "music_mood": "desert_ambient"
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "A Gentle Touch",
+      "duration_sec": 5.0,
+      "location": "loc_desert_dunes",
+      "time_of_day": "golden_hour",
+      "lighting_mood": "dramatic_sunbeam",
+      "camera": {
+        "shot_type": "close_up",
+        "movement": "orbit",
+        "start_transform": {"position": [0.5, -1.8, 0.8], "rotation": [15.0, 0.0, -10.0]},
+        "end_transform": {"position": [-0.5, -1.8, 0.9], "rotation": [15.0, 0.0, 15.0]},
+        "focal_length_mm": 50.0
+      },
+      "characters": [
+        {
+          "character_id": "robot_scout",
+          "asset_id": "char_robot_scout",
+          "scale": 1.0,
+          "start_position": [0.0, 0.5, 0.0],
+          "end_position": [0.1, 0.6, 0.0],
+          "actions": [
+            {"action": "reach_out", "start_sec": 0.5, "end_sec": 3.0},
+            {"action": "wave", "start_sec": 3.0, "end_sec": 5.0}
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop_id": "flower_01",
+          "asset_id": "prop_alien_flower",
+          "position": [0.3, 1.2, 0.0],
+          "rotation": [0.0, 0.0, 15.0],
+          "scale": 1.0
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "robot_scout",
+          "emotion": "wonder",
+          "text": "Life persists. I will shield you from the sandstorms."
+        }
+      ],
+      "music_mood": "desert_ambient"
+    }
+  ]
+}

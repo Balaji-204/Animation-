@@ -1,0 +1,6 @@
+{
+  "name": "OfflineAnimStudio",
+  "description": "Offline text-to-3D animation studio creating animated scenes, camera staging, voiceover, and video assembly without internet access.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
